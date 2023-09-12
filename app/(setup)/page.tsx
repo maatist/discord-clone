@@ -6,10 +6,6 @@ import { InitialModal } from "@/components/modals/initial-modal";
 
 const SetupPage = async () => {
 
-    type profile = {
-        id: String;
-    }
-
     const profile = await initialProfile();
 
 
